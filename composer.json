@@ -1,0 +1,27 @@
+{
+    "name": "davidsonts/mercado-pago-bagisto",
+    "description": "Integração do Mercado Pago para Bagisto.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Davidson Santos",
+            "email": "sdavidsonts@outlook.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Davidsonts\\MercadoPago\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Davidsonts\\MercadoPago\\Providers\\MercadoPagoServiceProvider"
+            ]
+        }
+    }
+}
