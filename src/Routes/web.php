@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Webkul\MercadoPago\Http\Controllers\MercadoPagoController;
+use Davidsonts\MercadoPago\Http\Controllers\MercadoPagoController;
 
 Route::group(['middleware' => ['web']], function () {
     Route::prefix('mercadopago')->group(function () {
